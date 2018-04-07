@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "DataPlatform": {
+      "matchCondition": {
+        "route": "api/dataplatform",
+        "methods": [
+          "GET",
+          "POST"
+        ]
+      },
+      "backendUri": "https://dmtdataplatformapifunctions.azurewebsites.net/api/DataPlatformGet?code=pDDCLL4p0atHua7ej1BIXbN8zv3a72NwhoXALf46b9eOOZiRwaMj9g=="
+    }
+  }
+}
